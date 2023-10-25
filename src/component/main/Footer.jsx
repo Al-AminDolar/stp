@@ -1,13 +1,12 @@
 import React from "react";
-import { FaUserAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { HiArrowSmRight } from "react-icons/hi";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { BsYoutube } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaUserAlt } from "react-icons/fa";
+import { HiArrowSmRight } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className="px-40 pb-5 ">
+    <div className="container mx-auto w-[1100px] pb-5 ">
       <div className="border border-gray-800 rounded-[50px] p-20 bg-[#131c31]  ">
         <div className="grid grid-cols-3 gap-10 border-b pb-20">
           <div className="space-y-8">

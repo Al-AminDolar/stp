@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "../Images/IMG20221015142448-removebg-preview.png";
-const Main_page = () => {
+const Home = () => {
   return (
-    <div className="flex justify-center space-x-32">
+    <div className="flex justify-center space-x-48">
       <div className="bg-blueGray-900 text-white   shadow-lg rounded-sm text-start self-end  space-y-5  w-1/3 mb-10 p-10">
         <p className="text-sm font-sans font-semibold text-gray-400">
           Hello Everyone!
         </p>
-        <h1 className="text-6xl text-[rgb(13,173,230)] font-mono font-bold">
-          <span className="text-white">I'm</span> Al
-          <spanc className="text-white">-</spanc>Amin Dolar
+        <h1 className="text-6xl text-[rgb(13,173,230)]  font-bold ">
+          <span className="text-white font-sans">I'm</span> Al
+          <spanc className="text-white font-serif">-</spanc>Amin Dolar
         </h1>
         <span className="text-sm">
           A Software engineer & professional web developer
@@ -40,4 +40,4 @@ const Main_page = () => {
   );
 };
 
-export default Main_page;
+export default Home;

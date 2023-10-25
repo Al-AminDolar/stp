@@ -3,7 +3,7 @@ import ArticleCart from "./ArticleCart";
 
 const Blogs = () => {
   return (
-    <div className=" px-56  py-16  ">
+    <div className=" ">
       <div className="my-16">
         <h1 className="text-[#0db3e2] text-6xl font-semibold">
           Editors Picked
