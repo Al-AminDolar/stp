@@ -1,17 +1,22 @@
 import React from "react";
+import Post from "./Post";
 
 const Posts = () => {
   return (
     <div className="">
-      <div className="grid grid-cols-5">
-        <div className="col-span-3">
-          <h1 className="text-5xl text-[#0db3e2]">Recent Posts</h1>
-          <p className="text-[#8a9ebd] text-xl pt-3">
-            Don't miss the latest trends
-          </p>
-        </div>
-        <div className="col-span-2 border"></div>
+      <h1 className="text-5xl text-[#0db3e2]">Recent Posts</h1>
+      <p className="text-[#8a9ebd] text-xl pt-3">
+        Don't miss the latest trends
+      </p>
+
+      <div className="flex ">
+        {[1, 2].map((data) => {
+          return <Post key={data} />;
+        })}
       </div>
+      <button className="bg-[#0bc8d5] rounded-2xl px-4 py-2 mx-3 my-10 text-white font-semibold">
+        Show more Posts
+      </button>
     </div>
   );
 };
