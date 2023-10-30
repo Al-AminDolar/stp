@@ -9,8 +9,8 @@ const Posts = () => {
         Don't miss the latest trends
       </p>
 
-      <div className="flex ">
-        {[1, 2].map((data) => {
+      <div className="grid grid-cols-2 gap-5 items-center justify-center">
+        {[1, 2, 3, 4].map((data) => {
           return <Post key={data} />;
         })}
       </div>
