@@ -4,7 +4,7 @@ import image1 from "../Images/img2.png";
 
 const Post = () => {
   return (
-    <div className="grid grid-cols-2 justify-center my-14 ">
+    <div className="grid grid-cols-2 justify-center mt-10 ">
       <div className="p-3">
         <img src={image1} alt="" className="rounded-2xl " />
       </div>

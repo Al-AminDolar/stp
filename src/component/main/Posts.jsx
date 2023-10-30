@@ -14,7 +14,7 @@ const Posts = () => {
           return <Post key={data} />;
         })}
       </div>
-      <button className="bg-[#0bc8d5] rounded-2xl px-4 py-2 mx-3 my-10 text-white font-semibold">
+      <button className="bg-[#0db3e2] rounded-2xl px-4 py-2 mx-3 my-10 text-white font-semibold">
         Show more Posts
       </button>
     </div>

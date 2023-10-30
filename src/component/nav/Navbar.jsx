@@ -10,11 +10,11 @@ const Navbar = () => {
         <div>
           <ui className="flex  gap-7 text-slate-300 text-xl font-mono font-medium ">
             <oi className="text-sky-500 cursor-pointer">Home</oi>
-            <ol className="hover:text-sky-500  cursor-pointer">Resume</ol>
-            <ol className="hover:text-sky-500  cursor-pointer">Expert</ol>
+
             <ol className="hover:text-sky-500  cursor-pointer">Project</ol>
             <ol className="hover:text-sky-500  cursor-pointer">Blog</ol>
             <ol className="hover:text-sky-500  cursor-pointer">About</ol>
+            <ol className="hover:text-sky-500  cursor-pointer">Contact</ol>
           </ui>
         </div>
 
