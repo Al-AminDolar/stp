@@ -2,57 +2,23 @@
   "popularProducts": [
     {
       "_id": 1,
-      "img": "https://i.ibb.co/2Sr3Nx3/vapepens.png",
-      "title": "Vape Pens",
-      "searchKey": "vape-pens"
+      "img": "https://i.ibb.co/cDs9Sc8/pp-504x498-pad-600x600-f8f8f8-u1.jpg",
+      "title": "React Dom"
     },
     {
       "_id": 2,
-      "img": "https://i.ibb.co/YtGYKRG/flower.png",
-      "title": "Flower",
-      "searchKey": "flower"
+      "img": "https://i.ibb.co/nQD7TKf/nodejs-1-400x400-300x300.png",
+      "title": "Node"
     },
     {
       "_id": 3,
-      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
-      "title": "Concentrates",
-      "searchKey": "concentrates"
+      "img": "https://i.ibb.co/2yCkYjB/download.png",
+      "title": "MongoDB"
     },
     {
       "_id": 4,
-      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
-      "title": "Pre roll",
-      "searchKey": "pre-roll"
-    },
-    {
-      "_id": 5,
-      "img": "https://i.ibb.co/6DCyVLL/Cbd.png",
-      "title": "CBD",
-      "searchKey": "cbd"
-    },
-    {
-      "_id": 6,
-      "img": "https://i.ibb.co/CPMghCH/topicals.png",
-      "title": "Topicals",
-      "searchKey": "topicals"
-    },
-    {
-      "_id": 7,
-      "img": "https://i.ibb.co/V9CnTz5/Pre-roll.png",
-      "title": "Topicals",
-      "searchKey": "topicals"
-    },
-    {
-      "_id": 8,
-      "img": "https://i.ibb.co/YtGYKRG/flower.png",
-      "title": "Pre roll",
-      "searchKey": "pre-roll"
-    },
-    {
-      "_id": 9,
-      "img": "https://i.ibb.co/3BnR5vy/Concentrates.png",
-      "title": "CBD",
-      "searchKey": "cbd"
+      "img": "https://i.ibb.co/HqjCLPq/javascript.jpg",
+      "title": "JavaScript"
     }
   ],
 

@@ -8,7 +8,7 @@ import data from "../dummy/dummyProducts.json";
 const Caurosel = () => {
   const { popularProducts } = data;
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -24,8 +24,7 @@ const Caurosel = () => {
             Hot Topics
           </p>
           <p className="text-[#b9e0f2] font-semibold text-sm w-2/3">
-            Don't miss out on the latest news about Travel tips, Hotels review,
-            Food guide...
+            Don't miss out on the latest blogs about new Technology
           </p>
 
           <div className="text-gray-200 flex gap-3 ">
