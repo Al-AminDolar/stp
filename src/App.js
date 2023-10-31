@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./component/main/Footer";
 import Home from "./component/main/Home";
@@ -7,8 +8,10 @@ function App() {
   return (
     <div className="bg-blueGray-900 ">
       <Navbar />
-      <Home />
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ import Caurosel from "./Caurosel";
 import MainPage from "./MainPage";
 import PopularTag from "./PopularTag";
 import Posts from "./Posts";
-import Projects from "./Projects";
+import Projects from "./ProjectSection";
 
 const Home = () => {
   return (
