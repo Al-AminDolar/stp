@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container  mx-auto">
       <div className="bg-blueGray-900 h-20 flex items-center justify-between ">
         <div>
           <p className="text-white text-2xl font-bold">S-T-P</p>
