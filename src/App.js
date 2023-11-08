@@ -6,7 +6,7 @@ import Navbar from "./component/nav/Navbar.jsx";
 
 function App() {
   return (
-    <div className="bg-blueGray-900 ">
+    <div className="bg-[#0f172a] ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

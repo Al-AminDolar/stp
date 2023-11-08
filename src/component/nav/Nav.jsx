@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
-import log from "../images/logo.png";
 
 const Nav = () => {
   let Links = [
@@ -36,7 +35,7 @@ const Nav = () => {
       <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <span className="text-2xl font-[Poppins] cursor-pointer">
-            <img className="h-10 inline" src={log} alt="Tailwind Logo" />
+            <p>SofTtech Programmer</p>
           </span>
         </div>
 

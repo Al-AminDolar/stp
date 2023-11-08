@@ -1,0 +1,18 @@
+backgroundColor : {
+    primary: #0f172a
+}
+
+font size
+Name=64px
+Heading = 45px / Color : background: linear-gradient(90deg,#0ea5ea,#0bd1d1 51%,#0ea5ea) var(--x,0)/200%;
+title= 24
+para= 
+
+primary= color: #1cc2e7
+secondary= color: #b9e0f2
+alcent=   color: #94a9c9;
+
+header{
+        color: #1cc2e7
+        font-Syze= 16
+}
