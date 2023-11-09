@@ -94,9 +94,11 @@ const Footer = () => {
 
         <div className="pt-10 flex justify-between">
           <div className="flex gap-2">
-            <p className="text-[#b9e0f2]">© Created by </p>{" "}
-            <p className=" text-[#1cc2e7] hover:-translate-y-1   duration-300 ... cursor-pointer">
-              Sof-Tech-Programmer
+            <p className="text-[#b9e0f2]">Created by ©</p>
+            <p className=" text-[#fff] hover:text-[#1cc2e7] hover:-translate-y-1   duration-300 ... cursor-pointer">
+              SoF
+              <span className="  text-[#0bd1d1] ">T</span>
+              ech-Studio
             </p>
           </div>
           <div className="flex gap-14 text-[#94a9c9]">

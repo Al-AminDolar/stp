@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div className=" ">
       <div className="my-16">
-        <h1 className="text-[#1cc2e7] text-[45px] font-semibold">
+        <h1 className="text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70% ">
           Editors Picked
         </h1>
         <h4 className="text-[#8a9ebd] text-lg ">

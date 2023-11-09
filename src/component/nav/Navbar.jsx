@@ -6,8 +6,8 @@ const Navbar = () => {
     <div className="container  mx-auto">
       <div className="bg-blueGray-900 h-20 flex items-center justify-between ">
         <div>
-          <button className="text-white font-bold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ">
-            Sof-Tech Programmer
+          <button className="text-white text-[44px] font-bold">
+            SoF<span className="  text-sky-600 ">T</span>ech-Studio
           </button>
         </div>
         <div>

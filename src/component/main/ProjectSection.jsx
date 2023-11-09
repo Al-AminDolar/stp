@@ -4,7 +4,7 @@ import ArticleCart from "./ArticleCart";
 const Projects = () => {
   return (
     <div className="mt-20">
-      <h1 className="text-[45px] text-[#0db3e2] font-medium text-center">
+      <h1 className="text-[45px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-20% via-[#0bd1d1] via-51% to-[#41ea0e] to-29% ">
         My Latest Projects
       </h1>
       <p className="text-[#94a9c9] font-semibold text-center mb-7 text-lg">
@@ -23,3 +23,4 @@ const Projects = () => {
 };
 
 export default Projects;
+// #0ea5ea,#0bd1d1 51%,#0ea5ea
