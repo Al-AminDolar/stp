@@ -9,10 +9,10 @@ const Post = () => {
         <img src={image1} alt="" className="rounded-2xl " />
       </div>
       <div className="p-3 space-y-2">
-        <h3 className="text-xl text-white">
+        <h3 className="text-[24px] text-[#b9e0f2]">
           Helpful Tips for working from home as a freelancher
         </h3>
-        <p className="text-gray-400 text-sm">
+        <p className="text-[#94a9c9] text-sm">
           Embrace remote work success with these invaluable tips and tricks for
           freelancers seeking productivity and work-life balance in their home
           offices
@@ -22,7 +22,7 @@ const Post = () => {
             <a href="#">#Travel</a>
           </div>
           <div>
-            <button className="flex items-center gap-1">
+            <button className="flex items-center gap-1 hover:text-[#1cc2e7]">
               {" "}
               <GiAlarmClock className="h-4 w-4" /> Read more
             </button>

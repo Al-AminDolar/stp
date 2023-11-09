@@ -17,15 +17,15 @@ const ArticleCart = () => {
         <img src={img} alt="" className=" rounded-md" />
       </div>
 
-      <div className="flex justify-between text-gray-500">
+      <div className="flex justify-between text-[#94a9c9]">
         <p>#backend#node</p>
         <p>3 mins read</p>
       </div>
 
       <h1
         className={` text-${
-          isHovered ? "sky-500" : "white"
-        }  text-4xl font-semibold`}
+          isHovered ? "[#1cc2e7]" : "[#b9e0f2]"
+        }  text-[24px] font-semibold`}
         style={{
           transition: "color 0.3s ease-in-out",
         }}

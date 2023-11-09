@@ -8,7 +8,7 @@ import Projects from "./ProjectSection";
 
 const Home = () => {
   return (
-    <div className="container mx-auto w-[870px]">
+    <div className="container mx-auto w-[1000px]">
       <MainPage />
       <Caurosel />
       <Projects />

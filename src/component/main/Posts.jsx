@@ -1,21 +1,20 @@
 import React from "react";
+import { HiArrowSmRight } from "react-icons/hi";
 import Post from "./Post";
 
 const Posts = () => {
   return (
     <div className="">
-      <h1 className="text-5xl text-[#0db3e2]">Recent Posts</h1>
-      <p className="text-[#8a9ebd] text-xl pt-3">
-        Don't miss the latest trends
-      </p>
+      <h1 className="text-[45px] font-semibold text-[#1cc2e7]">Recent Posts</h1>
+      <p className="text-[#94a9c9] text-xl ">Don't miss the latest trends</p>
 
-      <div className="grid grid-cols-2 gap-5 items-center justify-center">
+      <div className="grid grid-cols-2 gap-5 items-center justify-center mb-8">
         {[1, 2, 3, 4].map((data) => {
           return <Post key={data} />;
         })}
       </div>
-      <button className="bg-[#0db3e2] rounded-2xl px-4 py-2 mx-3 my-10 text-white font-semibold">
-        Show more Posts
+      <button className="flex justify-center items-center gap-1 text-white font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ">
+        Show More <HiArrowSmRight />
       </button>
     </div>
   );
