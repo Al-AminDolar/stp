@@ -1,12 +1,12 @@
 import React from "react";
 import { GiAlarmClock } from "react-icons/gi";
-import image1 from "../Images/img2.png";
+import post from "../../../assets/Images/post/post1.png";
 
-const Post = () => {
+const PostCard = () => {
   return (
     <div className="grid grid-cols-2 justify-center mt-10 ">
       <div className="p-3">
-        <img src={image1} alt="" className="rounded-2xl " />
+        <img src={post} alt="" className="rounded-2xl " />
       </div>
       <div className="p-3 space-y-2">
         <h3 className="text-[24px] text-[#b9e0f2]">
@@ -33,4 +33,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default PostCard;

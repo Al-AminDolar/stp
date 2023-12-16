@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import travel from "../Images/Travel.jpg";
+import tag from "../../../assets/Images/tag/tag.jpg";
 
 const TagCard = () => {
   const [ishovered, setIsHovered] = useState(false);
@@ -16,7 +16,7 @@ const TagCard = () => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <div>
-          <img src={travel} alt="" className="border rounded-full h-10 w-10" />
+          <img src={tag} alt="" className="border rounded-full h-10 w-10" />
         </div>
         <div>
           <p className="text-base text-[#b9e0f2]">Travel</p>

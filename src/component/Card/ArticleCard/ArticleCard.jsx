@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GiAlarmClock } from "react-icons/gi";
-import img from "../Images/node.png";
-const ArticleCart = () => {
+import img from "../../../assets/Images/article/node.png";
+const ArticleCard = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
@@ -48,4 +48,4 @@ const ArticleCart = () => {
   );
 };
 
-export default ArticleCart;
+export default ArticleCard;

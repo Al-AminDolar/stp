@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleCart from "../../main/ArticleCart";
+import ArticleCart from "../../Card/ArticleCard/ArticleCard";
 
 const BlogSection = () => {
   return (

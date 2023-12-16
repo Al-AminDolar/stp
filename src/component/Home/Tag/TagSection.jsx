@@ -1,5 +1,5 @@
 import React from "react";
-import TagCard from "../../main/TagCard";
+import TagCard from "../../Card/TagCard/TagCard";
 
 const TagSection = () => {
   return (

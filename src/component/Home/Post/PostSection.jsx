@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowSmRight } from "react-icons/hi";
-import Post from "../../main/Post";
+import Post from "../../Card/PostCard/PostCard";
 
 const PostSection = () => {
   return (
