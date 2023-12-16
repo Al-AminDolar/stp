@@ -1,7 +1,7 @@
 import React from "react";
-import ArticleCart from "./ArticleCart";
+import ArticleCart from "../../main/ArticleCart";
 
-const Projects = () => {
+const ProjectSection = () => {
   return (
     <div className="mt-20">
       <h1 className="text-[45px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-20% via-[#0bd1d1] via-51% to-[#41ea0e] to-29% ">
@@ -22,5 +22,5 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectSection;
 // #0ea5ea,#0bd1d1 51%,#0ea5ea

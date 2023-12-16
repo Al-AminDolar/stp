@@ -1,8 +1,8 @@
 import React from "react";
 import { HiArrowSmRight } from "react-icons/hi";
-import Post from "./Post";
+import Post from "../../main/Post";
 
-const Posts = () => {
+const PostSection = () => {
   return (
     <div className="">
       <h1 className="text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70% ">
@@ -22,4 +22,4 @@ const Posts = () => {
   );
 };
 
-export default Posts;
+export default PostSection;

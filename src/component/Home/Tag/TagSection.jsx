@@ -1,7 +1,7 @@
 import React from "react";
-import TagCard from "./TagCard";
+import TagCard from "../../main/TagCard";
 
-const PopularTag = () => {
+const TagSection = () => {
   return (
     <div className=" mt-10 ">
       <h1 className="text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70% ">
@@ -17,4 +17,4 @@ const PopularTag = () => {
   );
 };
 
-export default PopularTag;
+export default TagSection;

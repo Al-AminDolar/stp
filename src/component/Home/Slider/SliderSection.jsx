@@ -3,9 +3,9 @@ import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import data from "../dummy/dummyProducts.json";
+import data from "../../dummy/dummyProducts.json";
 
-const Caurosel = () => {
+const SliderSection = () => {
   const { popularProducts } = data;
   const settings = {
     dots: false,
@@ -57,4 +57,4 @@ const Caurosel = () => {
   );
 };
 
-export default Caurosel;
+export default SliderSection;

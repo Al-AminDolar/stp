@@ -1,7 +1,7 @@
 import React from "react";
-import ArticleCart from "./ArticleCart";
+import ArticleCart from "../../main/ArticleCart";
 
-const Blogs = () => {
+const BlogSection = () => {
   return (
     <div className=" ">
       <div className="my-16">
@@ -30,4 +30,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default BlogSection;

@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "../Images/IMG20221015142448-removebg-preview.png";
-const Main_page = () => {
+import profilePic from "../../../assets/Images/home/Mypic.png";
+const HeroSection = () => {
   return (
     <div className="">
       <div className="grid grid-cols-2 justify-center">
@@ -36,11 +36,11 @@ const Main_page = () => {
         </div>
 
         <div className=" flex justify-center">
-          <img src={Image} alt="" className="w-[300px]" />
+          <img src={profilePic} alt="" className="w-[300px]" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Main_page;
+export default HeroSection;
