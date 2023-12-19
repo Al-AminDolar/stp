@@ -1,5 +1,6 @@
 import React from "react";
 import BlogSection from "./Blogs/BlogSection";
+import Education from "./Education/Education";
 import HeroSection from "./Hero/HeroSection";
 import PostSection from "./Post/PostSection";
 import ProjectSection from "./Project/ProjectSection";
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroSection />
       <SliderSection />
       <ProjectSection />
+      <Education />
       <BlogSection />
       <TagSection />
       <PostSection />
