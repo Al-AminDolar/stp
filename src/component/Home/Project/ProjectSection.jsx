@@ -1,6 +1,7 @@
 import React from "react";
-import ArticleCart from "../../Card/ArticleCard/ArticleCard";
-
+import data from "../../../component/dummy/dummyProducts.json";
+import "./ProjectCard.css";
+const { Projects } = data;
 const ProjectSection = () => {
   return (
     <div className="mt-20">
@@ -11,10 +12,29 @@ const ProjectSection = () => {
         As a Software Developer I am always focus on my clinet Demand
       </p>
 
-      <div className="space-y-10">
-        <div className="grid grid-cols-2  items-center justify-center">
-          {[1, 1].map((data) => {
-            return <ArticleCart key={data} />;
+      <div className="space-y-10 mt-20">
+        <div className="grid grid-cols-2   justify-center items-center">
+          {Projects.slice(0, 2).map((data) => {
+            return (
+              <div className="project-card  w-[350px] h-[300px] border rounded-md border-cyan-500 shadow-lg shadow-cyan-500">
+                <img
+                  src={data?.img}
+                  alt={data?.title}
+                  className="project-image"
+                />
+                <div className="overlay">
+                  <div className="project-text">
+                    <h1 className="font-bold text-2xl"> {data?.title}</h1>
+                    <button className="px-6 py-1 bg-orange-500 mt-2 text-xl font-semibold rounded-md text-black">
+                      {" "}
+                      <a target="_blank" href={data.Url} rel="noreferrer">
+                        Live Site
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            );
           })}
         </div>
       </div>
