@@ -1,6 +1,33 @@
 import React from "react";
+import { IoMdHeart } from "react-icons/io";
 import TagCard from "../../Card/TagCard/TagCard";
-
+const tagname = [
+  {
+    id: 1,
+    tagTitle: "Tailwind Css",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 2,
+    tagTitle: "React Js",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 3,
+    tagTitle: "Node Js",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 4,
+    tagTitle: "Digital Marketing",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 5,
+    tagTitle: "Freelanching",
+    icon: <IoMdHeart />,
+  },
+];
 const TagSection = () => {
   return (
     <div className=" mt-10 ">
@@ -9,8 +36,8 @@ const TagSection = () => {
       </h1>
       <h4 className=" text-lg text-[#94a9c9]">Most searched keywords</h4>
       <div className=" py-12  flex gap-5">
-        {[1, 2, 3, 4, 5, 6].map((data) => {
-          return <TagCard key={data} />;
+        {tagname.map((data) => {
+          return <TagCard key={data} data={data} />;
         })}
       </div>
     </div>

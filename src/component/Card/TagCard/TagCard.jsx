@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import tag from "../../../assets/Images/tag/tag.jpg";
 
-const TagCard = () => {
+const TagCard = ({ data }) => {
   const [ishovered, setIsHovered] = useState(false);
   return (
     <div className="flex items-center gap-2">
@@ -15,11 +14,9 @@ const TagCard = () => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
+        <div className="text-red-500">{data.icon}</div>
         <div>
-          <img src={tag} alt="" className="border rounded-full h-10 w-10" />
-        </div>
-        <div>
-          <p className="text-base text-[#b9e0f2]">Travel</p>
+          <p className="text-base text-[#b9e0f2]">{data?.tagTitle}</p>
         </div>
       </div>
     </div>
