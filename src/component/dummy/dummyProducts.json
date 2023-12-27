@@ -145,9 +145,47 @@
     {
       "_id": 2,
       "img": "https://i.ibb.co/MC2XH5N/Kavg-home.png",
-      "title": " Kaliganj Regional Language Group, Jhenaidah",
+      "title": " Kaliganj Regional Language Group",
       "description": "This is a private Facebook Group",
       "Url": "kavgj.com"
+    }
+  ],
+
+  "blogs": [
+    {
+      "_id": 1,
+      "img": "https://i.ibb.co/MgvD88Z/1675064028466.png",
+      "title": "Learn Chat-Gpt",
+      "description": "This is Demand Engineering",
+      "Url": "https://demandeng.com/"
+    },
+    {
+      "_id": 2,
+      "img": "https://i.ibb.co/MVq7Lzj/How-to-Become-a-Freelancer-Side-Hustle-Pro-Tips-1024x512.png",
+      "title": "How to became a freelancher",
+      "description": "This is a private Facebook Group",
+      "Url": "kavgj.com"
+    },
+    {
+      "_id": 3,
+      "img": "https://i.ibb.co/L1gKCF4/Mern.jpg",
+      "title": "MERN Stuck for begineer",
+      "description": "This is Demand Engineering",
+      "Url": "https://demandeng.com/"
+    },
+    {
+      "_id": 4,
+      "img": "https://i.ibb.co/BGHx31r/tailwind-css.png",
+      "title": "Basic Tailwind Css",
+      "description": "This is Demand Engineering",
+      "Url": "https://demandeng.com/"
+    },
+    {
+      "_id": 5,
+      "img": "https://i.ibb.co/Rc0V0T2/next-js.png",
+      "title": "Next Js for begineer",
+      "description": "This is Demand Engineering",
+      "Url": "https://demandeng.com/"
     }
   ]
 }

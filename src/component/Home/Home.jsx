@@ -12,8 +12,9 @@ const Home = () => {
     <div className="container mx-auto w-[1000px]">
       <HeroSection />
       <SliderSection />
-      <ProjectSection />
       <Education />
+      <ProjectSection />
+
       <BlogSection />
       <TagSection />
       <PostSection />

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { GiAlarmClock } from "react-icons/gi";
-import img from "../../../assets/Images/article/node.png";
-const ArticleCard = () => {
+const ArticleCard = ({ data }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
-      className={` w-[420px] border border-gray-800   rounded-md shadow-md p-5 space-y-5  bg-[#131c31]  ${
+      className={` w-[320px]  border border-gray-800   rounded-md shadow-md p-5 space-y-5  bg-[#131c31]  ${
         isHovered
           ? "transition    ease-in-out duration-500 -translate-y-1 "
           : "transition    ease-in-out duration-500 translate-y-1 "
@@ -13,8 +12,12 @@ const ArticleCard = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div>
-        <img src={img} alt="" className=" rounded-md" />
+      <div className=" overflow-hidden">
+        <img
+          src={data?.img}
+          alt=""
+          className=" rounded-md object-cover h-[150px] w-[300px]"
+        />
       </div>
 
       <div className="flex justify-between text-[#94a9c9]">
@@ -25,12 +28,12 @@ const ArticleCard = () => {
       <h1
         className={` text-${
           isHovered ? "[#1cc2e7]" : "[#b9e0f2]"
-        }  text-[24px] font-semibold`}
+        }  text-[20px] font-semibold`}
         style={{
           transition: "color 0.3s ease-in-out",
         }}
       >
-        Node Js For Beginners
+        {data?.title}
       </h1>
 
       <div className="flex justify-between items-center text-gray-500">

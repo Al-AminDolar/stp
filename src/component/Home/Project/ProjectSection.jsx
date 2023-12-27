@@ -13,7 +13,7 @@ const ProjectSection = () => {
       </p>
 
       <div className="space-y-10 mt-20">
-        <div className="grid grid-cols-2   justify-center items-center">
+        <div className="flex gap-20   justify-center items-center">
           {Projects.slice(0, 2).map((data) => {
             return (
               <div className="project-card  w-[350px] h-[300px] border rounded-md border-cyan-500 shadow-lg shadow-cyan-500">
