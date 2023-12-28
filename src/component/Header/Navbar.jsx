@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="container  mx-auto">
+    <div className="container  mx-auto hidden md:visible">
       <div className="bg-blueGray-900 h-20 flex items-center justify-between ">
         <div>
           <button className="text-white text-[44px] font-bold">
