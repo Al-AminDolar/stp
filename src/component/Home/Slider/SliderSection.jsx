@@ -15,18 +15,32 @@ const SliderSection = () => {
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 100,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
-    <div className="bg-[#131c31]   w-[900px] border border-gray-800  rounded-md shadow-sm p-5 grid grid-cols-5">
-      <div className="col-span-1 space-y-3">
-        <p className="text-[#b9e0f2] text-xl font-sans font-bold">
+    <div className="md:bg-[#131c31] max-w-xs md:max-w-none  md:border md:border-gray-800 md:rounded-md md:shadow-sm md:p-5 grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="col-span-1  md:space-y-3 max-w-sm ">
+        <p className="text-[#b9e0f2] text-xl  font-bold mt-2 md:mt-0 ml-5 md:ml-0 ">
           Technology Stack
         </p>
-        <p className="text-[#b9e0f2] font-semibold text-sm w-2/3">
+        <p className="text-[#b9e0f2] font-semibold text-sm mt-2 md:mt-0 ml-5 md:ml-0 ">
           Key Tools for Modern Web Development
         </p>
 
-        <div className="text-gray-200 flex gap-3 ">
+        <div className="text-gray-200 md:flex gap-3 md:visible hidden">
           <span className="p-1 border border-gray-600 rounded-full bg-[#1d222e] hover:bg-[#0dcaf0] cursor-pointer ">
             <BiLeftArrowAlt size={20} />
           </span>
@@ -35,7 +49,7 @@ const SliderSection = () => {
           </span>
         </div>
       </div>
-      <div className="col-span-4 pr-2">
+      <div className="col-span-1 p-10 md:p-0 md:ml-0 ml-10  max-w-xs md:max-w-none md:col-span-4 md:pr-2">
         <Slider {...settings}>
           {popularProducts?.slice(0, 4).map((data, i) => {
             return (
