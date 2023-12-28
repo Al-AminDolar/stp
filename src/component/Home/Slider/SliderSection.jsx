@@ -19,9 +19,11 @@ const SliderSection = () => {
   return (
     <div className="bg-[#131c31]   w-[900px] border border-gray-800  rounded-md shadow-sm p-5 grid grid-cols-5">
       <div className="col-span-1 space-y-3">
-        <p className="text-[#b9e0f2] text-xl font-sans font-bold">Hot Topics</p>
+        <p className="text-[#b9e0f2] text-xl font-sans font-bold">
+          Technology Stack
+        </p>
         <p className="text-[#b9e0f2] font-semibold text-sm w-2/3">
-          Don't miss out on the latest blogs about new Technology
+          Key Tools for Modern Web Development
         </p>
 
         <div className="text-gray-200 flex gap-3 ">
