@@ -3,20 +3,20 @@ import { HiArrowSmDown } from "react-icons/hi";
 import aboutImg from "../../../assets/final-removebg-preview.png";
 const About = () => {
   return (
-    <div className="mt-20">
-      <h1 className="text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%  text-center">
+    <div className=" md:mt-20 max-w-sm md:max-w-none lg:max-w-none">
+      <h1 className="text-3xl  md:text-[45px]  lg:text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%  text-center">
         About Me
       </h1>
       ;
-      <div className="flex flex-col md:flex-row items-center md:items-start bg-[#131c31]  p-10 rounded-lg shadow-lg">
+      <div className="flex flex-col md:flex-row items-center md:items-start bg-[#131c31]  p-10 rounded-lg shadow-lg m-5 md:m-0 md:mt-5 ">
         <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
           <img
             src={aboutImg}
             alt="Your Name"
-            className="object-cover w-[400px]"
+            className="object-cover max-w-xs md:w-[400px] "
           />
 
-          <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ">
+          <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ml-7 ">
             Download Ressume <HiArrowSmDown />
           </button>
         </div>
