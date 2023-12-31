@@ -10,7 +10,7 @@ const PostSection = () => {
       </h1>
       <p className="text-[#94a9c9] text-xl ">Don't miss the latest trends</p>
 
-      <div className="grid grid-cols-2 gap-5 items-center justify-center mb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center mb-8">
         {[1, 2, 3, 4].map((data) => {
           return <Post key={data} />;
         })}

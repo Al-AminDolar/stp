@@ -4,7 +4,7 @@ import TagCard from "../../Card/TagCard/TagCard";
 const tagname = [
   {
     id: 1,
-    tagTitle: "Tailwind Css",
+    tagTitle: "Tailwind ",
     icon: <IoMdHeart />,
   },
   {
@@ -19,12 +19,27 @@ const tagname = [
   },
   {
     id: 4,
-    tagTitle: "Digital Marketing",
+    tagTitle: "Digital M",
     icon: <IoMdHeart />,
   },
   {
     id: 5,
     tagTitle: "Freelanching",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 6,
+    tagTitle: "JavaScript",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 7,
+    tagTitle: "TypeScript",
+    icon: <IoMdHeart />,
+  },
+  {
+    id: 8,
+    tagTitle: "Data base",
     icon: <IoMdHeart />,
   },
 ];
@@ -35,7 +50,7 @@ const TagSection = () => {
         Popular Tags
       </h1>
       <h4 className=" text-lg text-[#94a9c9]">Most searched keywords</h4>
-      <div className=" py-12  flex gap-5">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 pt-5">
         {tagname.map((data) => {
           return <TagCard key={data} data={data} />;
         })}

@@ -14,7 +14,7 @@ const BlogSection = () => {
       </h4>
       <div className="flex justify-center mt-20 ">
         <div className="space-y-10">
-          <div className="grid grid-cols-3 items-center justify-center gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center md:gap-20 gap-5">
             {blogs.slice(0, 3).map((data) => {
               return <ArticleCart key={data} data={data} />;
             })}
