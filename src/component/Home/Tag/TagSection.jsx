@@ -30,7 +30,7 @@ const tagname = [
 ];
 const TagSection = () => {
   return (
-    <div className=" mt-10 ">
+    <div className=" mt-20 max-w-sm md:max-w-none px-5">
       <h1 className="text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70% ">
         Popular Tags
       </h1>

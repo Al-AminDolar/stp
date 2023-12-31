@@ -6,12 +6,12 @@ import "./education.css";
 
 const Education = () => {
   return (
-    <section className="pt-20">
+    <section className="mt-20 max-w-sm md:max-w-none px-5">
       <div className="container mx-auto">
         <h1 className="text-[45px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%">
           Education And Experience
         </h1>
-        <div className="flex gap-20 justify-center mt-10">
+        <div className="flex flex-col md:flex-row px-5 md:px-0 md:gap-20 justify-center mt-10">
           <div className=" mt-10 space-y-20">
             <Timeline>
               <Timeline.Item color="green">

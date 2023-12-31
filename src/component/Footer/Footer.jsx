@@ -7,9 +7,9 @@ import { MdEmail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="container mx-auto w-[1100px] pb-5 mt-10">
+    <div className="container mx-auto  pb-5 mt-10 ">
       <div className="border border-gray-800 rounded-[50px] p-20 bg-[#131c31]  ">
-        <div className="grid grid-cols-3 gap-10 border-b pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 border-b pb-20">
           <div className="space-y-8">
             <h4 className="text-[#1cc2e7] text-[24px] font-bold">S.T.P</h4>
             <p className="text-[#94a9c9] text-justify text-sm">
@@ -92,7 +92,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-10 flex justify-between">
+        <div className="pt-10 flex flex-col md:flex-row justify-between">
           <div className="flex gap-2">
             <p className="text-[#b9e0f2]">Created by ©</p>
             <p className=" text-[#fff] hover:text-[#1cc2e7] hover:-translate-y-1   duration-300 ... cursor-pointer">
@@ -101,7 +101,7 @@ const Footer = () => {
               ech-Studio
             </p>
           </div>
-          <div className="flex gap-14 text-[#94a9c9]">
+          <div className="flex gap-5 md:gap-14 text-[#94a9c9]">
             <span className="flex gap-2 items-center cursor-pointer hover:-translate-y-1 duration-300 hover:text-[#1cc2e7]">
               <AiOutlineTwitter /> Twitter
             </span>
