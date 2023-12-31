@@ -22,7 +22,7 @@ const PostCard = () => {
             <a href="#">#Travel</a>
           </div>
           <div>
-            <button className="flex items-center gap-1 hover:text-[#1cc2e7]">
+            <button className="flex items-center gap-1 text-[#1cc2e7]">
               {" "}
               <GiAlarmClock className="h-4 w-4" /> Read more
             </button>

@@ -15,7 +15,8 @@ const PostSection = () => {
           return <Post key={data} />;
         })}
       </div>
-      <button className="flex justify-center items-center gap-1 text-white font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ">
+
+      <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out hover:shadow-xl hover:shadow-sky-800  ml-7 ">
         Show More <HiArrowSmRight />
       </button>
     </div>

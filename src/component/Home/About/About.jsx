@@ -4,7 +4,7 @@ import aboutImg from "../../../assets/final-removebg-preview.png";
 const About = () => {
   return (
     <div className=" md:mt-20 max-w-sm md:max-w-none lg:max-w-none">
-      <h1 className="text-3xl  md:text-[45px]  lg:text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%  text-center">
+      <h1 className="text-3xl  md:text-[45px]  lg:text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%  text-center pb-5">
         About Me
       </h1>
       ;
@@ -16,7 +16,7 @@ const About = () => {
             className="object-cover max-w-xs md:w-[400px] "
           />
 
-          <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ml-7 ">
+          <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out hover:shadow-xl hover:shadow-sky-800  ml-7 ">
             Download Ressume <HiArrowSmDown />
           </button>
         </div>

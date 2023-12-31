@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="border border-gray-800 rounded-[50px] p-20 bg-[#131c31]  ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 border-b pb-20">
           <div className="space-y-8">
-            <h4 className="text-[#1cc2e7] text-[24px] font-bold">S.T.P</h4>
+            <h4 className="text-[#1cc2e7] text-[24px] font-bold">Welcome</h4>
             <p className="text-[#94a9c9] text-justify text-sm">
               Thank you so much for visiting my site. I am always trying to give
               my best effort for any projet or product. If You want to convert
@@ -86,7 +86,7 @@ const Footer = () => {
               />
             </div>
 
-            <button className="flex justify-center items-center gap-1 text-white font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out  ">
+            <button className="flex justify-center items-center gap-1 text-black font-semibold bg-gradient-to-r from-[#0ea5ea] to-[#0bd1d1] py-2 px-4 rounded-md   hover:from-[#0bd1d1]  hover:to-[#0ea5ea] transition duration-500 ease-in-out hover:shadow-xl hover:shadow-sky-800   ">
               Subscribe <HiArrowSmRight />
             </button>
           </div>

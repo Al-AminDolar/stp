@@ -12,7 +12,7 @@ const BlogSection = () => {
       <h4 className="text-[#8a9ebd] text-lg text-center">
         Featured and highly related articles
       </h4>
-      <div className="flex justify-center mt-20 ">
+      <div className="flex justify-center mt-14 ">
         <div className="space-y-10">
           <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center md:gap-20 gap-5">
             {blogs.slice(0, 3).map((data) => {

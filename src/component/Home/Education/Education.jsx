@@ -17,42 +17,42 @@ const Education = () => {
               <Timeline.Item color="green">
                 {/* Education Section */}
                 <div className="children ">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
                     Daffodil International University
                   </div>
-                  <div className="text-gray-600">
+                  <div className="text-gray-600 text-base">
                     Bsc in Computer Science and Engineering
                   </div>
                   <div className="text-gray-600">CGP: 3.01</div>
-                  <div className="text-gray-600">2017 - 2021</div>
+                  <div className="text-[#34e71c]">2017 - 2021</div>
                 </div>
               </Timeline.Item>
               <Timeline.Item color="green">
                 {/* Example of another entry */}
                 <div className=" children">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
                     Government Mahtab Uddin Degree College
                   </div>
-                  <div className="text-gray-600">
+                  <div className="text-gray-600 text-base">
                     Higher Secondary School Certificate
                   </div>
                   <div className="text-gray-600">Department: Science</div>
                   <div className="text-gray-600">GPA: 4.50</div>
-                  <div className="text-gray-600">2016-2017</div>
+                  <div className="text-[#34e71c]">2016-2017</div>
                 </div>
               </Timeline.Item>
               <Timeline.Item color="green">
                 {/* Example of another entry */}
                 <div className=" ">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
                     Govt Naldanga Bhushan Pilot High School
                   </div>
-                  <div className="text-gray-600">
+                  <div className="text-gray-600 text-base">
                     Secondary School Certificate
                   </div>
                   <div className="text-gray-600">Department: Science</div>
                   <div className="text-gray-600">GPA: 5.00 (Golden A+)</div>
-                  <div className="text-gray-600">2014-2015</div>
+                  <div className="text-[#34e71c]">2014-2015</div>
                 </div>
               </Timeline.Item>
             </Timeline>
@@ -62,29 +62,29 @@ const Education = () => {
             <Timeline>
               <Timeline.Item color="green">
                 <div className=" ">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
                     Software Developer
                   </div>
-                  <div className="text-gray-600">ABC Company</div>
-                  <div className="text-gray-600">June 2021 - Present</div>
+                  <div className="text-gray-600 text-base">ABC Company</div>
+                  <div className="text-[#34e71c]">June 2021 - Present</div>
                 </div>
               </Timeline.Item>
               <Timeline.Item color="green">
                 <div className=" ">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
                     Software Developer
                   </div>
-                  <div className="text-gray-600">ABC Company</div>
-                  <div className="text-gray-600">June 2021 - Present</div>
+                  <div className="text-gray-600 text-base">ABC Company</div>
+                  <div className="text-[#34e71c]">June 2021 - Present</div>
                 </div>
               </Timeline.Item>
               <Timeline.Item color="green">
                 <div className=" ">
-                  <div className="text-lg font-bold text-[#0ea5ea]">
-                    Intern, Web Development
+                  <div className="text-2xl font-bold text-[#0ea5ea]">
+                    Software Developer
                   </div>
-                  <div className="text-gray-600">XYZ Tech Solutions</div>
-                  <div className="text-gray-600">May 2020 - August 2020</div>
+                  <div className="text-gray-600 text-base">ABC Company</div>
+                  <div className="text-[#34e71c]">June 2021 - Present</div>
                 </div>
               </Timeline.Item>
             </Timeline>

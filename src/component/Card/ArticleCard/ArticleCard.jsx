@@ -42,7 +42,7 @@ const ArticleCard = ({ data }) => {
           <p>Al-Amin</p> <p>6 April 2023</p>
         </div>
 
-        <button className="flex items-center gap-1">
+        <button className="flex items-center gap-1 text-[#1cc2e7]">
           {" "}
           <GiAlarmClock className="h-6 w-6" /> Read more
         </button>
