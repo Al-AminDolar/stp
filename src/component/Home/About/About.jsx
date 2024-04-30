@@ -3,7 +3,7 @@ import { HiArrowSmDown } from "react-icons/hi";
 import aboutImg from "../../../assets/final-removebg-preview.png";
 const About = () => {
   return (
-    <div className=" md:mt-20 max-w-sm md:max-w-none lg:max-w-none">
+    <div id="about" className=" md:mt-20 max-w-sm md:max-w-none lg:max-w-none">
       <h1 className="text-3xl  md:text-[45px]  lg:text-[45px]  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-10% via-[#0bd1d1] via-20% to-[#0eea83] to-70%  text-center pb-5">
         About Me
       </h1>

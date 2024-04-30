@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 const { Projects } = data;
 const ProjectSection = () => {
   return (
-    <div className="mt-20 max-w-sm md:max-w-none px-5">
+    <div id="projects" className="mt-20 max-w-sm md:max-w-none px-5">
       <h1 className="text-3xl pb-5 md:text-[45px] lg:text-[45px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#0ea5ea] from-20% via-[#0bd1d1] via-51% to-[#41ea0e] to-29% ">
         My Latest Projects
       </h1>

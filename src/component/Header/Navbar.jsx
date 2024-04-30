@@ -3,38 +3,34 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="container  mx-auto invisible md:visible">
-      <div className="bg-blueGray-900 h-20 flex items-center justify-between ">
+    <nav className="container mx-auto invisible md:visible">
+      <div className="bg-blueGray-900 h-20 flex items-center justify-between">
         <div>
-          <button className="text-white text-[44px] font-bold">
-            Al-<span className="  text-sky-600 ">A</span>amin
+          <button className="text-white text-4xl font-bold">
+            Al-<span className="text-sky-600">A</span>amin
           </button>
         </div>
         <div>
-          <ui className="flex  gap-7 text-slate-300 text-xl font-mono font-medium ">
-            <oi className="text-[#1cc2e7] cursor-pointer">
-              <NavLink to="/home"> Home</NavLink>
-            </oi>
-            <ol className="hover:text-[#1cc2e7]  cursor-pointer">
-              {" "}
-              <NavLink to="/projects"> Project</NavLink>
-            </ol>
-            <ol className="hover:text-[#1cc2e7]  cursor-pointer">
-              {" "}
-              <NavLink to="/blogs"> Blog</NavLink>
-            </ol>
-            <ol className="hover:text-[#1cc2e7]  cursor-pointer">
-              {" "}
-              <NavLink to="/about"> About</NavLink>
-            </ol>
-            <ol className="hover:text-[#1cc2e7]  cursor-pointer">
-              {" "}
-              <NavLink to="/contact"> Contact</NavLink>
-            </ol>
-          </ui>
+          <ul className="flex gap-7 text-slate-300 text-xl font-mono font-medium">
+            <li className="text-[#1cc2e7] cursor-pointer">
+              <NavLink to="/home">Home</NavLink>
+            </li>
+            <li className="hover:text-[#1cc2e7] cursor-pointer">
+              <a href="/#projects">Project</a>
+            </li>
+            <li className="hover:text-[#1cc2e7] cursor-pointer">
+              <a href="/#blogs">Blog</a>
+            </li>
+            <li className="hover:text-[#1cc2e7] cursor-pointer">
+              <a href="/#about">About</a>
+            </li>
+            {/* <li className="hover:text-[#1cc2e7] cursor-pointer">
+              <NavLink to="/contact">Contact</NavLink>
+            </li> */}
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
