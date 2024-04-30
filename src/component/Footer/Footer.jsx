@@ -96,9 +96,9 @@ const Footer = () => {
           <div className="flex gap-2">
             <p className="text-[#b9e0f2]">Created by ©</p>
             <p className=" text-[#fff] hover:text-[#1cc2e7] hover:-translate-y-1   duration-300 ... cursor-pointer">
-              SoF
-              <span className="  text-[#0bd1d1] ">T</span>
-              ech-Studio
+              De
+              <span className="  text-[#0bd1d1] ">V</span>
+              Cluster
             </p>
           </div>
           <div className="flex gap-5 md:gap-14 text-[#94a9c9]">

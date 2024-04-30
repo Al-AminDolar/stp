@@ -19,7 +19,7 @@ const PostCard = () => {
         </p>
         <div className="flex justify-between text-sm text-gray-500">
           <div className="flex gap-1">
-            <a href="#">#Travel</a>
+            <a href="/travel">#Travel</a>
           </div>
           <div>
             <button className="flex items-center gap-1 text-[#1cc2e7]">
